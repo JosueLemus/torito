@@ -88,7 +88,9 @@ class HomeView extends StatelessWidget {
               children: [
                 Expanded(
                   child: ElevatedButton.icon(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed(AppRoutes.deposit);
+                    },
                     icon: const Icon(Icons.add),
                     label: const Text('Depositar'),
                     style: ElevatedButton.styleFrom(

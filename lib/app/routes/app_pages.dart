@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:torito/app/modules/bobc/bobc_binding.dart';
 import 'package:torito/app/modules/bobc/bobc_view.dart';
+import 'package:torito/app/modules/deposit/deposit_binding.dart';
+import 'package:torito/app/modules/deposit/deposit_view.dart';
 import 'package:torito/app/modules/main/main_binding.dart';
 import 'package:torito/app/modules/main/main_view.dart';
 import 'package:torito/app/modules/request_loan/request_loan_binding.dart';
@@ -52,6 +54,11 @@ class AppPages {
       name: AppRoutes.requestLoan,
       page: () => const RequestLoanView(),
       binding: RequestLoanBinding(),
+    ),
+    GetPage(
+      name: AppRoutes.deposit,
+      page: () => const DepositView(),
+      binding: DepositBinding(),
     ),
   ];
 }

@@ -6,4 +6,5 @@ abstract class AppRoutes {
   static const bobc = '/bobc';
   static const usdtBalance = '/usdt-balance';
   static const requestLoan = '/request-loan';
+  static const deposit = '/deposit';
 }
